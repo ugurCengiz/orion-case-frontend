@@ -1,0 +1,40 @@
+/* styles.css */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #535353;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #a09e9e;
+  }
+         
+  .btn {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #167dec;
+    color: #fff;
+  }
+  
+  .btn-danger {
+    background-color: #f00d24;
+    color: #fff;
+  }
+
+  .search-input {
+    padding: 8px;
+    border: 1px solid #080000;
+    border-radius: 50px;
+    margin-left: 350px; /* buton ile arama alanı arasında boşluk */
+    width: 700px; /* arama alanının genişliği */
+  }
+  

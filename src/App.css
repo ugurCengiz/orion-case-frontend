@@ -1,16 +1,32 @@
-.App {
-  text-align: center;
+.form-group {
+ display: flex;
+ flex-direction: column;
+ width: 300px;
+ margin-bottom: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-group label {
+ margin-bottom: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-group input[type="text"],
+.form-group input[type="password"] {
+ width: 100%;
+ padding: 8px;
+ margin-bottom: 10px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+}
+
+.form-group input[type="submit"] {
+ width: 100%;
+ padding: 8px;
+ background-color: #4CAF50;
+ color: white;
+ border: none;
+ cursor: pointer;
+ border-radius: 4px;
+ 
 }
 
 .App-header {
@@ -22,17 +38,35 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  position: relative;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.App-form{
+  width: 150px;
+	height: 150px;
+	margin: 2px;
+  float:left;
+  margin-left: 500px;
+  margin-bottom: 200px;
+
+}
+.app-title{
+  float:left;
+  margin-right: 600px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title-text{
+  width: 100px;
+}
+
+.app-container {
+  display: flex;
+  background-color: #f0f0f0; /* Arka plan rengi */
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff; /* Ana içerik arka plan rengi */
 }

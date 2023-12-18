@@ -1,0 +1,20 @@
+/* Sidebar.css */
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #3f3f3f;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .sidebar a {
+    color: #fff; /* Link rengini beyaz yapın */
+    text-decoration: none; /* Alt çizgiyi kaldırın (isteğe bağlı) */
+  }
+  
+  .sidebar a:hover {
+    /* İsteğe bağlı: Link üzerine gelindiğinde rengi değiştirin */
+    color: #00f;
+  }
+  
